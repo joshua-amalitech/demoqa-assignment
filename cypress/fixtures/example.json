@@ -1,6 +1,11 @@
 {
   "name": "Test User",
+  "first_name": "Test",
+  "last_name": "User",
   "email": "test@email.io",
+  "age": 24,
+  "salary": "20000",
+  "department": "Quality Assurance",
   "current_address": "P.O.BOX AM",
   "permanent_address": "P.O.BOX AM"
 }
