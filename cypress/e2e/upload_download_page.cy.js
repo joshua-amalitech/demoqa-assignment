@@ -21,7 +21,7 @@ describe("File Upload and Download Page", () => {
             .should(buffer => expect(buffer.length).to.be.gt(100));
     })
 
-    it.only("Uploading File", () => {
+    it("Uploading File", () => {
         cy.get('#uploadFile').selectFile(getPath('sampleFile.jpeg')).then(($input) => {
             const files = $input[0].files
         
