@@ -17,6 +17,9 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import 'cypress-xpath'
+
+// import 'cypress-downloadfile/lib/downloadFileCommand'
 
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false
