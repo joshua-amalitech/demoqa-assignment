@@ -12,7 +12,6 @@
   "license": "ISC",
   "dependencies": {
     "cypress": "^12.4.0",
-    "cypress-downloadfile": "^1.2.3",
     "cypress-xpath": "^2.0.1"
   }
 }

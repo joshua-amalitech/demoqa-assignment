@@ -19,8 +19,6 @@
 import './commands'
 import 'cypress-xpath'
 
-// import 'cypress-downloadfile/lib/downloadFileCommand'
-
 Cypress.on('uncaught:exception', (err, runnable) => {
     return false
 })
