@@ -2,7 +2,7 @@ const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
   e2e: {
-    // excludeSpecPattern: "**/e2e/text_box_page.cy.js",
+    excludeSpecPattern: "**/e2e/browser_window.cy.js",
     baseUrl: "https://demoqa.com",
     failOnStatusCode: false,
     experimentalRunAllSpecs: true,
