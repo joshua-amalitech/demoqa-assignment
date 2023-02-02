@@ -12,12 +12,5 @@ describe("Radio Button Page", () => {
 
         cy.get("#yesRadio").should("not.be.checked");
         cy.get("#noRadio").should("be.disabled");
-
-        // cy.get("#result")
-        // .children("span:first-child")
-        // .should("contain.text", "You have selected :")
-
-        // .siblings("span:last-child")
-        // .should("contain.text", "Impressive")
     })
 })

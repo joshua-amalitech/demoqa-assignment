@@ -6,9 +6,8 @@ function getPath(filename) {
     return path.join(downloadsFolder, filename);
 }
 
-
 describe("File Upload and Download Page", () => {
-    before(() => {
+    beforeEach(() => {
         cy.visit("/upload-download")
     })
 
